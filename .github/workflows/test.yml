@@ -37,8 +37,3 @@ jobs:
       - name: Running df (with inodes).
         run: sudo df -i
 
-      - name: Running ls.
-        run: sudo ls -lRA /
-
-      - name: Running du.
-        run: sudo du --all --bytes /
