@@ -1,0 +1,261 @@
+Desired=Unknown/Install/Remove/Purge/Hold
+| Status=Not/Inst/Conf-files/Unpacked/halF-conf/Half-inst/trig-aWait/Trig-pend
+|/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)
+||/ Name                       Version          Architecture Description
++++-==========================-================-============-======================================================================================================================
+ii  apr                        1.7.4            aarch64      Apache Portable Runtime Library
+ii  apr-util                   1.6.3-1          aarch64      Apache Portable Runtime Utility Library
+ii  apt                        2.7.6            aarch64      Front-end for the dpkg package manager
+ii  argp                       1.5.0            aarch64      Standalone version of arguments parsing functions from GLIBC
+ii  attr                       2.5.1            aarch64      Utilities for manipulating filesystem extended attributes
+ii  autoconf                   2.71-2           all          Creator of shell scripts to configure source code packages
+ii  automake                   1.16.5           all          Tool for automatically generating Makefile.in files
+ii  bash                       5.2.15-1         aarch64      A sh-compatible shell that incorporates useful features from the Korn shell (ksh) and C shell (csh)
+ii  bash-completion            2.11-2           all          Programmable completion for the bash shell
+ii  bc                         1.07.1-1         aarch64      Arbitrary precision numeric processing language
+ii  binutils                   2.41             aarch64      GNU Binutils (metapackage)
+ii  binutils-bin               2.41             aarch64      Collection of binary tools, the main ones being ld, the GNU linker, and as, the GNU assembler
+ii  binutils-libs              2.41             aarch64      GNU Binutils libraries
+ii  bison                      3.8.2-3          aarch64      General-purpose parser generator
+ii  brotli                     1.1.0            aarch64      lossless compression algorithm and format (command line utility)
+ii  build-essential            4.1              all          A metapackage that installs essential development tools
+ii  bzip2                      1.0.8-6          aarch64      Tools for working with bzip2 compression
+ii  c-ares                     1.23.0           aarch64      Library for asynchronous DNS requests (including name resolves)
+ii  ca-certificates            1:2023.08.22     all          Common CA certificates
+ii  clang                      17.0.6           aarch64      C language frontend for LLVM
+ii  cmake                      3.27.9           aarch64      Family of tools designed to build, test and package software
+ii  command-not-found          2.4.0-1          aarch64      Suggest installation of packages in interactive shell sessions
+ii  coreutils                  9.4              aarch64      Basic file, shell and text manipulation utilities from the GNU project
+ii  curl                       8.4.0            aarch64      Command line tool for transferring data with URL syntax
+ii  dash                       0.5.12           aarch64      Small POSIX-compliant implementation of /bin/sh
+ii  dbus                       1.15.6-1         aarch64      Freedesktop.org message bus system
+ii  debianutils                5.14             aarch64      Small utilities which are used primarily by the installation scripts of Debian packages
+ii  dialog                     1.3-20230209-0   aarch64      Application used in shell scripts which displays text user interface widgets
+ii  diffutils                  3.10             aarch64      Programs (cmp, diff, diff3 and sdiff) related to finding differences between files
+ii  dos2unix                   7.5.1            aarch64      Converts between DOS and Unix text files
+pi  dpkg                       1.22.1-1         aarch64      Debian package management system
+ii  ed                         1.19             aarch64      Classic UNIX line editor
+ii  emacs                      29.1-1           aarch64      Extensible, customizable text editor-and more
+ii  ffmpeg                     6.1-1            aarch64      Tools and libraries to manipulate a wide range of multimedia formats and protocols
+ii  fftw                       3.3.10-3         aarch64      Library for computing the Discrete Fourier Transform (DFT) in one or more dimensions
+ii  file                       5.45             aarch64      Command-line tool that tells you in words what kind of data a file contains
+ii  findutils                  4.9.0-2          aarch64      Utilities to find files meeting specified criteria and perform various actions on the files which are found
+ii  flex                       2.6.4-3          aarch64      Fast lexical analyser generator
+ii  fontconfig                 2.14.2-2         aarch64      Library for configuring and customizing font access
+ii  fontconfig-static          2.14.2-2         aarch64      Static libraries for fontconfig
+ii  fontconfig-utils           2.14.2-2         aarch64      Fontconfig binaries
+ii  freetype                   2.13.2           aarch64      Software font engine capable of producing high-quality output
+ii  fribidi                    1.0.13           aarch64      Implementation of the Unicode Bidirectional Algorithm
+ii  fzf                        0.44.1           aarch64      Command-line fuzzy finder
+ii  game-music-emu             0.6.3-1          aarch64      A collection of video game music file emulators
+ii  gawk                       5.3.0            aarch64      Programming language designed for text processing
+ii  gdbm                       1.23             aarch64      Library of database functions that use extensible hashing
+ii  gdk-pixbuf                 2.42.10-2        aarch64      Library for image loading and manipulation
+ii  gh                         2.39.2           aarch64      GitHub’s official command line tool
+ii  giflib                     5.2.1-2          aarch64      A library for reading and writing gif images
+ii  git                        2.43.0           aarch64      Fast, scalable, distributed revision control system
+ii  glib                       2.78.2           aarch64      Library providing core building blocks for libraries and applications written in C
+ii  golang                     3:1.21.4         aarch64      Go programming language compiler
+ii  gperf                      3.1-7            aarch64      A perfect hash function generator
+ii  gpgv                       2.4.3            aarch64      GNU privacy guard - signature verification tool
+ii  grep                       3.11             aarch64      Command which searches one or more input files for lines containing a match to a specified pattern
+ii  gzip                       1.13             aarch64      Standard GNU file compression utilities
+ii  harfbuzz                   7.3.0-1          aarch64      OpenType text shaping engine
+ii  htop                       3.2.2            aarch64      Interactive process viewer for Linux
+ii  imlib2                     1.12.1           aarch64      Library that does image file loading and saving as well as rendering, manipulation, arbitrary polygon support
+ii  inetutils                  2.4-1            aarch64      Collection of common network programs
+ii  jq                         1.7              aarch64      Command-line JSON processor
+ii  jsoncpp                    1.9.5-1          aarch64      C++ library for interacting with JSON
+ii  krb5                       1.21.2           aarch64      The Kerberos network authentication system
+ii  ldns                       1.8.3-2          aarch64      Library for simplifying DNS programming and supporting recent and experimental RFCs
+ii  less                       633-1            aarch64      Terminal pager program used to view the contents of a text file one screen at a time
+ii  libandroid-execinfo        0.1-1            aarch64      Shared library for the backtrace system function
+ii  libandroid-glob            0.6-2            aarch64      Shared library for the glob(3) system function
+ii  libandroid-posix-semaphore 0.1-3            aarch64      Shared library for the posix semaphore system function
+ii  libandroid-shmem           0.4              aarch64      System V shared memory emulation on Android using ashmem
+ii  libandroid-support         28-3             aarch64      Library extending the Android C library (Bionic) for additional multibyte, locale and math support
+ii  libaom                     3.7.0-1          aarch64      AV1 Video Codec Library
+ii  libarchive                 3.7.2            aarch64      Multi-format archive and compression library
+ii  libass                     0.17.1           aarch64      A portable library for SSA/ASS subtitles rendering
+ii  libassuan                  2.5.6            aarch64      Library implementing the Assuan IPC protocol used between most newer GnuPG components
+ii  libbluray                  1.3.4-1          aarch64      An open-source library designed for Blu-Ray Discs playback for media players
+ii  libbz2                     1.0.8-6          aarch64      BZ2 format compression library
+ii  libc++                     26b              aarch64      C++ Standard Library
+ii  libcaca                    0.99.beta20-1    aarch64      Graphics library that outputs text instead of pixels
+ii  libcairo                   1.18.0           aarch64      Cairo 2D vector graphics library
+ii  libcap                     2.69             aarch64      POSIX 1003.1e capabilities
+ii  libcap-ng                  2:0.8.3          aarch64      Library making programming with POSIX capabilities easier than traditional libcap
+ii  libcompiler-rt             17.0.6           aarch64      Compiler runtime libraries for clang
+ii  libcrypt                   0.2-5            aarch64      A crypt(3) implementation
+ii  libcurl                    8.4.0            aarch64      Easy-to-use client-side URL transfer library
+ii  libdav1d                   1.3.0            aarch64      AV1 cross-platform decoder focused on speed and correctness
+ii  libdb                      18.1.40-4        aarch64      The Berkeley DB embedded database system (library)
+ii  libde265                   1.0.14           aarch64      H.265/HEVC video stream decoder library
+ii  libdw                      0.190            aarch64      Library to read DWARF information
+ii  libedit                    20221030-3.1-0   aarch64      Library providing line editing, history, and tokenization functions
+ii  libelf                     0.190            aarch64      ELF object file access library
+ii  libevent                   2.1.12-2         aarch64      Library that provides asynchronous event notification
+ii  libexpat                   2.5.0-1          aarch64      XML parsing C library
+ii  libffi                     3.4.4-1          aarch64      Library providing a portable, high level programming interface to various calling conventions
+ii  libflac                    1.4.3            aarch64      FLAC (Free Lossless Audio Codec) library
+ii  libgcrypt                  1.10.2           aarch64      General purpose cryptographic library based on the code from GnuPG
+ii  libgd                      1:2.3.3-3        aarch64      GD is an open source code library for the dynamic creation of images by programmers
+ii  libgmp                     6.3.0            aarch64      Library for arbitrary precision arithmetic
+ii  libgnutls                  3.8.2            aarch64      Secure communications library implementing the SSL, TLS and DTLS protocols and technologies around them
+ii  libgpg-error               1.47             aarch64      Small library that defines common error values for all GnuPG components
+ii  libgraphite                1.3.14-2         aarch64      Font system for multiple languages
+ii  libheif                    1.17.5           aarch64      HEIF (HEIC/AVIF) image encoding and decoding library
+ii  libiconv                   1.17             aarch64      An implementation of iconv()
+ii  libicu                     74.1+real74.1    aarch64      International Components for Unicode library
+ii  libid3tag                  0.16.3           aarch64      MAD ID3 tag manipulation library
+ii  libidn2                    2.3.4            aarch64      Free software implementation of IDNA2008, Punycode and TR46
+ii  libjansson                 2.14             aarch64      C library for encoding, decoding and manipulating JSON data
+ii  libjpeg-turbo              3.0.1            aarch64      Library for reading and writing JPEG image files
+ii  libjxl                     0.8.2-2          aarch64      JPEG XL image format reference implementation
+ii  libllvm                    17.0.6           aarch64      Modular compiler and toolchain technologies library
+ii  libltdl                    2.4.7-1          aarch64      Library for dlopening libraries
+ii  liblua52                   5.2.4-8          aarch64      Shared library for the Lua interpreter (v5.2.x)
+ii  libluajit                  1:2.1.1700008891 aarch64      Just-In-Time Compiler for Lua
+ii  liblz4                     1.9.4            aarch64      Fast LZ compression algorithm library
+ii  liblzma                    5.4.5            aarch64      XZ-format compression library
+ii  liblzo                     2.10-3           aarch64      Portable lossless data compression library
+ii  libmd                      1.1.0            aarch64      Message Digest functions from BSD systems
+ii  libmp3lame                 3.100-4          aarch64      High quality MPEG Audio Layer III (MP3) encoder
+ii  libmpfr                    4.2.1            aarch64      C library for multiple-precision floating-point computations with correct rounding
+ii  libmsgpack                 6.0.0            aarch64      MessagePack implementation for C
+ii  libnettle                  3.9.1            aarch64      Cryptographic library that is designed to fit easily in more or less any context
+ii  libnghttp2                 1.58.0           aarch64      nghttp HTTP 2.0 library
+ii  libnpth                    1.6-1            aarch64      New GNU Portable Threads Library
+ii  libogg                     1.3.5            aarch64      Library for working with the Ogg multimedia container format
+ii  libopencore-amr            0.1.6            aarch64      Open source implementation of the Adaptive Multi Rate (AMR) speech codec
+ii  libopenmpt                 0.7.3            aarch64      OpenMPT based module player library and libopenmpt based command-line player
+ii  libopus                    1.4              aarch64      Reference implementation of the Opus codec
+ii  libpixman                  0.42.2           aarch64      Low-level library for pixel manipulation
+ii  libplacebo                 6.338.1          aarch64      Reusable library for GPU-accelerated video/image rendering
+ii  libpng                     1.6.40           aarch64      Official PNG reference library
+ii  librav1e                   0.6.6            aarch64      An AV1 encoder library focused on speed and safety
+ii  libresolv-wrapper          1.1.7-4          aarch64      A wrapper for DNS name resolving or DNS faking
+ii  librsvg                    2.57.0           aarch64      Library to render SVG files using cairo
+ii  libsamplerate              0.2.2            aarch64      A library for performing sample rate conversion of audio data
+ii  libsixel                   1.10.3-2         aarch64      Encoder/decoder implementation for DEC SIXEL graphics
+ii  libsmartcols               2.39.2-1         aarch64      Library for smart adaptive formatting of tabular data
+ii  libsndfile                 1.2.2            aarch64      Library for reading/writing audio files
+ii  libsoxr                    0.1.3-4          aarch64      High quality, one-dimensional sample-rate conversion library
+ii  libsqlite                  3.44.0           aarch64      Library implementing a self-contained and transactional SQL database engine
+ii  libsrt                     1.5.3            aarch64      Secure Reliable Transport (SRT) Protocol
+ii  libssh                     0.10.5           aarch64      Tiny C SSH library
+ii  libssh2                    1.11.0           aarch64      Client-side library implementing the SSH2 protocol
+ii  libtalloc                  2.4.1            aarch64      Hierarchical, reference counted memory pool system with destructors
+ii  libtermkey                 0.22-3           aarch64      Library for processing of keyboard entry for terminal-based programs
+ii  libtheora                  1.1.1-1          aarch64      An open video codec developed by the Xiph.org
+ii  libtiff                    4.6.0            aarch64      Support for the Tag Image File Format (TIFF) for storing image data
+ii  libtirpc                   1.3.4            aarch64      Transport Independent RPC library
+ii  libtool                    2.4.7-1          aarch64      Generic library support script hiding the complexity of using shared libraries behind a consistent, portable interface
+ii  libtreesitter              0.20.8           aarch64      An incremental parsing system for programming tools
+ii  libuchardet                0.0.8            aarch64      An encoding detector library
+ii  libudfread                 1.1.2            aarch64      A library for reading UDF
+ii  libunbound                 1.19.0           aarch64      A validating, recursive, caching DNS resolver
+ii  libunibilium               2.1.1            aarch64      Terminfo parsing library
+ii  libunistring               1.1              aarch64      Library providing functions for manipulating Unicode strings
+ii  libuuid                    2.39.2-1         aarch64      Library for handling universally unique identifiers
+ii  libuv                      1.47.0           aarch64      Support library with a focus on asynchronous I/O
+ii  libv4l                     1.24.1-1         aarch64      Linux libraries to handle media devices
+ii  libvidstab                 1.1.1            aarch64      video stabilization library
+ii  libvo-amrwbenc             0.1.3            aarch64      VisualOn AMR-WB encoder library
+ii  libvorbis                  1.3.7-1          aarch64      Library for using the Ogg Vorbis compressed audio format
+ii  libvpx                     1:1.13.1         aarch64      VP8 & VP9 Codec SDK
+ii  libvterm                   1:0.3.2          aarch64      Terminal emulator library
+ii  libwebp                    1.3.2            aarch64      Library to encode and decode images in WebP format
+ii  libwebrtc-audio-processing 0.3.1-2          aarch64      A library containing the AudioProcessing module from the WebRTC project
+ii  libx11                     1.8.7            aarch64      X11 client-side library
+ii  libx264                    1:0.164.3101     aarch64      Library for encoding video streams into the H.264/MPEG-4 AVC format
+ii  libx265                    3.5-p20230222-0  aarch64      H.265/HEVC video stream encoder library
+ii  libxau                     1.0.11           aarch64      X11 authorisation library
+ii  libxcb                     1.16             aarch64      X11 client-side library
+ii  libxdmcp                   1.1.4            aarch64      X11 Display Manager Control Protocol library
+ii  libxext                    1.3.5            aarch64      X11 miscellaneous extensions library
+ii  libxft                     2.3.8            aarch64      FreeType-based font drawing library for X
+ii  libxml2                    2.12.2           aarch64      Library for parsing XML documents
+ii  libxrender                 0.9.11           aarch64      X Rendering Extension client library
+ii  libyaml                    0.2.5-4          aarch64      LibYAML is a YAML 1.1 parser and emitter written in C
+ii  libzimg                    3.0.5            aarch64      Scaling, colorspace conversion, and dithering library
+ii  littlecms                  2.16             aarch64      Color management library
+ii  lld                        17.0.6           aarch64      LLVM-based linker
+ii  llvm                       17.0.6           aarch64      LLVM modular compiler and toolchain executables
+ii  lsof                       4.99.0           aarch64      Lists open files for running Unix processes
+ii  luv                        1.45.0-0-0       aarch64      Bare libuv bindings for lua
+ii  m4                         1.4.19-4         aarch64      Traditional Unix macro processor
+ii  make                       4.4.1            aarch64      Tool to control the generation of non-source files from source files
+ii  mdp                        1.0.15-2         aarch64      Command-line based markdown presentation tool
+ii  mpg123                     1.32.3           aarch64      Fast console MPEG Audio Player and decoder library
+ii  mpv                        0.37.0           aarch64      Command-line media player
+ii  nano                       7.2              aarch64      Small, free and friendly text editor
+ii  ncurses                    6.4.20231001-3   aarch64      Library for text-based user interfaces in a terminal-independent manner
+ii  ncurses-ui-libs            6.4.20231001-3   aarch64      Libraries for terminal user interfaces based on ncurses
+ii  ncurses-utils              6.4.20231001-3   aarch64      Tools for working with terminals
+ii  ndk-sysroot                26b              aarch64      System header and library files from the Android NDK needed for compiling C programs
+ii  neovim                     0.9.4            aarch64      Ambitious Vim-fork focused on extensibility and agility (nvim)
+ii  net-tools                  2.10.0           aarch64      Configuration tools for Linux networking
+ii  nodejs                     20.2.0-1         aarch64      Open Source, cross-platform JavaScript runtime environment
+ii  ocl-icd                    2.3.2            aarch64      OpenCL ICD Loader
+ii  oniguruma                  6.9.9            aarch64      Regular expressions library
+ii  openal-soft                1.23.1           aarch64      Software implementation of the OpenAL API
+ii  openjpeg                   2.5.0-1          aarch64      JPEG 2000 image compression library
+ii  openssh                    9.5p1-2          aarch64      Secure shell for logging into a remote machine
+ii  openssh-sftp-server        9.5p1-2          aarch64      OpenSSH SFTP server subsystem
+ii  openssl                    1:3.1.4          aarch64      Library implementing the SSL and TLS protocols as well as general purpose cryptography functions
+ii  pango                      1.50.14          aarch64      Library for laying out and rendering text
+ii  patch                      2.7.6-3          aarch64      GNU patch which applies diff files to create patched files
+ii  patchelf                   0.18.0           aarch64      Utility to modify the dynamic linker and RPATH of ELF executables
+ii  pcre                       8.45-1           aarch64      Library implementing regular expression pattern matching using the same syntax and semantics as Perl 5
+ii  pcre2                      10.42            aarch64      Perl 5 compatible regular expression library
+ii  perl                       5.38.0-3         aarch64      Capable, feature-rich programming language
+ii  pkg-config                 0.29.2-2         aarch64      Helper tool used when compiling applications and libraries
+ii  procps                     3.3.17-5         aarch64      Utilities that give information about processes using the /proc filesystem
+ii  proot                      5.1.107-62       aarch64      Emulate chroot, bind mount and binfmt_misc for non-root users
+ii  proot-distro               4.5.0            all          Termux official utility for managing proot'ed Linux distributions
+ii  psmisc                     23.6-2           aarch64      Some small useful utilities that use the proc filesystem
+ii  pulseaudio                 16.99.1-1        aarch64      A featureful, general-purpose sound server
+ii  python                     3.11.6-1         aarch64      Python 3 programming language intended to enable clear programs
+ii  python-cryptography        41.0.7           aarch64      Provides cryptographic recipes and primitives to Python developers
+ii  python-ensurepip-wheels    3.11.6-1         all          Wheels for Python ensurepip
+ii  python-pip                 23.3.1           all          The PyPA recommended tool for installing Python packages
+ii  readline                   8.2.1            aarch64      Library that allow users to edit command lines as they are typed in
+ii  resolv-conf                1.3              aarch64      Resolver configuration file
+ii  rhash                      1.4.4            aarch64      Console utility for calculation and verification of magnet links and a wide range of hash sums
+ii  rubberband                 3.3.0            aarch64      An audio time-stretching and pitch-shifting library and utility program
+ii  ruby                       3.2.2            aarch64      Dynamic programming language with a focus on simplicity and productivity
+ii  rust                       1.74.0           aarch64      Systems programming language focused on safety, speed and concurrency
+ii  screen                     4.9.1            aarch64      Terminal multiplexer with VT100/ANSI terminal emulation
+ii  sed                        4.9-1            aarch64      GNU stream editor for filtering/transforming text
+ii  serf                       1.3.10           aarch64      High performance C-based HTTP client library
+ii  shellcheck                 0.8.0-1          aarch64      Shell script analysis tool
+ii  speexdsp                   1.2.1            aarch64      Speex audio processing library
+ii  strace                     6.6              aarch64      Debugging utility to monitor system calls and signals received
+ii  subversion                 1.14.2-6         aarch64      Centralized version control system characterized by its simplicity
+ii  svt-av1                    1.7.0            aarch64      Scalable Video Technology for AV1 (SVT-AV1 Encoder and Decoder)
+ii  tar                        1.35             aarch64      GNU tar for manipulating tar archives
+ii  termux-am                  0.6.0            all          Android Oreo-compatible am command reimplementation
+ii  termux-am-socket           1.5.0            aarch64      A faster version of am with less features that only works while Termux is running
+ii  termux-auth                1.4-2            aarch64      Password authentication library and utility for Termux
+ii  termux-elf-cleaner         2.1.1-2          aarch64      Cleaner of ELF files for Android
+ii  termux-exec                1:1.0            aarch64      An execve() wrapper to make /bin and /usr/bin shebangs work
+ii  termux-keyring             3.11             all          GPG public keys for the official Termux repositories
+ii  termux-licenses            2.0-3            all          Contains LICENSE files for common licenses
+ii  termux-tools               1.39.5           all          Basic system tools for Termux
+ii  tmux                       3.3a-p20230428-0 aarch64      Terminal multiplexer
+ii  ttf-dejavu                 2.37-8           all          Font family based on the Bitstream Vera Fonts with a wider range of characters
+ii  unbound                    1.19.0           aarch64      Unbound command-line tools
+ii  unzip                      6.0-9            aarch64      Tools for working with zip files
+ii  utf8proc                   2.9.0            aarch64      Library for processing UTF-8 Unicode data
+ii  util-linux                 2.39.2-1         aarch64      Miscellaneous system utilities
+ii  vim                        9.0.2000         aarch64      Vi IMproved - enhanced vi editor
+ii  vim-runtime                9.0.2000         all          Vi IMproved - Runtime files
+ii  wget                       1.21.4-1         aarch64      Commandline tool for retrieving files using HTTP, HTTPS and FTP
+ii  xvidcore                   1.3.7            aarch64      High performance and high quality MPEG-4 library
+ii  xxhash                     0.8.2            aarch64      Extremely fast non-cryptographic hash algorithm
+ii  xz-utils                   5.4.5            aarch64      XZ-format compression tools
+ii  zlib                       1.3-3            aarch64      Compression library implementing the deflate compression method found in gzip and PKZIP
+ii  zsh                        5.9-2            aarch64      Shell with lots of features
+ii  zsh-completions            0.35.0           all          Additional completion definitions for Zsh
+ii  zstd                       1.5.5-1          aarch64      Zstandard compression
