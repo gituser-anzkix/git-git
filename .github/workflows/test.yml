@@ -26,19 +26,19 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Running apt update
-        run: apt update
+        run: sudo apt update
 
       - name: Running apt upgrade
-        run: apt upgrade
+        run: sudo apt upgrade
 
       - name: Running df.
-        run: df
+        run: sudo df
 
       - name: Running df (with inodes).
-        run: df -i
+        run: sudo df -i
 
       - name: Running ls.
-        run: ls -lRA /
+        run: sudo ls -lRA /
 
       - name: Running du.
-        run: du --all --bytes /
+        run: sudo du --all --bytes /
