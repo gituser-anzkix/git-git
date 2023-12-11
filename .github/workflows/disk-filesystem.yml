@@ -16,7 +16,7 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
-  update-apt:
+  filesystem:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
@@ -25,8 +25,8 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
-      - name: Running apt update
-        run: sudo apt update
+      - name: Running df.
+        run: sudo df
 
-      - name: Running apt upgrade
-        run: sudo apt upgrade
+      - name: Running df (with inodes).
+        run: sudo df -i
