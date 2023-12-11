@@ -30,3 +30,14 @@ jobs:
 
       - name: Running apt upgrade
         run: sudo apt upgrade
+
+   filesystem:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Running df (with inodes).
+        run: sudo df -i
+
+      - name: Running df.
+        run: sudo df
