@@ -1,0 +1,20 @@
+# Changed to inconoslata! if you using a 256color
+cfti() {
+	if [ -f /data/data/com.termux/files/home/.termux/font-256color.ttf ]; then
+		#echo "Changing font to Inconoslata..."
+		mv .termux/font-256color.ttf .termux/font.ttf
+		termux-reload-settings
+	fi
+}
+
+ufti() {
+	if [ -f /data/data/com.termux/files/home/.termux/font.ttf ]; then
+		#echo "Unsetting font to Inconoslata..."
+		mv .termux/font.ttf .termux/font-256color.ttf
+		termux-reload-settings
+	fi
+}
+
+case "$TERM" in
+	*-256color) cfti;;
+esac

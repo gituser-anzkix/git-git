@@ -1,0 +1,7 @@
+# HSTS 1.0 Known Hosts database for GNU Wget.
+# Edit at your own risk.
+# <hostname>	<port>	<incl. subdomains>	<created>	<max-age>
+bugs.debian.org	0	0	1702148146	15552000
+camo.githubusercontent.com	0	1	1702015156	31536000
+github.com	0	1	1702202845	31536000
+iptv-org.github.io	0	0	1701854006	31556952
